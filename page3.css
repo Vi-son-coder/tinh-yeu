@@ -1,0 +1,76 @@
+body{
+
+    background-image: url(page.png);
+    background-size: 1700px 1200px;
+    background-repeat: repeat-y;
+    background-position: center center;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    position: relative;
+    left:600px;
+    top:30px;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;;
+    position: relative;
+    top:60px;
+    color: black;
+}
+a:hover{
+    color:rgb(184, 102, 115);
+}
+a:active{
+    color:pink;
+}
+#div1{
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+ #div1 p{
+    font-size: 20px;
+    color: red;
+    position: relative;
+    top: 70px;
+}
+#div1 a{
+    color:black;
+}
+#div1 a:visited{
+    color: rgb(133, 123, 125);
+}
+#div2 h2:target{
+    color:red;
+}
+#div2 h2{
+    font-size: 40px;
+}
+#div2 p{
+    font-size: 20px;
+    line-height: 1.6;
+}
+#div2{
+    width: 600px;
+    border:2px solid rgb(161, 107, 116);
+    padding: 1px 20px;
+    /* khi 1 từ quá dài mà bị tràn ra ngoài viền thì sẽ tự động cắt từ đó xuống dòng */
+    overflow-wrap: break-word;
+    /* Khoảng trắng khi space sẽ chỉ tính là 1 và xuống dòng bình thường
+    khi sử dụng :normal */
+    white-space: normal;
+    position: relative;
+    left: 800px;
+    top: 90px;
+}
+pre a{
+    text-decoration:none;
+    font-size: 35px;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    left: 410px;
+    top: 100px;
+}
