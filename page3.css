@@ -12,17 +12,23 @@ h1{
     left:600px;
     top:30px;
 }
-a{
+#div1 a{
     text-decoration: none;
     font-size: 40px;;
     position: relative;
     top:60px;
     color: black;
 }
-a:hover{
-    color:rgb(184, 102, 115);
+#div1 a:link{
+    color:black;
 }
-a:active{
+#div1 a:visited{
+    color:rgb(185, 155, 155);
+}
+#div1 a:hover{
+    color:red;
+}
+#div1 a:active{
     color:pink;
 }
 #div1{
@@ -36,12 +42,7 @@ a:active{
     position: relative;
     top: 70px;
 }
-#div1 a{
-    color:black;
-}
-#div1 a:visited{
-    color: rgb(133, 123, 125);
-}
+
 #div2 h2:target{
     color:red;
 }
@@ -73,4 +74,10 @@ pre a{
     position:relative;
     left: 410px;
     top: 100px;
+}
+pre a:hover{
+    color:rgb(224, 148, 148);
+}
+pre a:active{
+    color:pink;
 }
