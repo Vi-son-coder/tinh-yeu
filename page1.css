@@ -1,30 +1,28 @@
-p{
+.one{
+    width: 600px;
+    padding: 3px 50px;
+    background-image: url(/page.png);
+    background-repeat: repeat-y
+}
+.one h1{
     font-size: 40px;
-    line-height:1.;
     text-align: center;
 }
-h1{
-    font-size: 50px;
-    position: relative;
-    left: 665px;
+.one p{
+    font-size: 30px;
+    line-height: 2.1;
+    text-align: left;
 }
-a{
-    text-decoration:none;
-    font-size: 35px;
-    color:red;
-    font-family: 'Times New Roman', Times, serif;
-    position:relative;
-    left: 420px;
+.one a{
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 770px;
 }
-a:hover{
-    color:rgb(184, 102, 115);
+.one a:hover{
+    color: rgb(152, 118, 123);
 }
-a:active{
-    color:pink;
-}
-body{
-    background-image: url(page.png);
-    background-size: 1700px 1100px;
-    background-repeat: no-repeat;
-    background-position: center center;
+.one a:active{
+    color: pink;
 }
