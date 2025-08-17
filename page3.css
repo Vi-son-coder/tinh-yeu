@@ -2,7 +2,7 @@
   width: 800px;
   padding: 3px 50px;
   background-position: center;
-  background-image: url(/page.png);
+  background-image: url(page.png);
   background-repeat: repeat-y;
 }
 .three h1 {

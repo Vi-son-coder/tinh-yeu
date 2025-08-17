@@ -1,7 +1,7 @@
 .one{
     width: 600px;
     padding: 3px 50px;
-    background-image: url(/page.png);
+    background-image: url(page.png);
     background-repeat: repeat-y
 }
 .one h1{
