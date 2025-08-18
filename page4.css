@@ -1,4 +1,80 @@
-body{
-    background-image: url(page.png);
-    width: 100%;
+body {
+  padding: 0;
+  margin: 0;
+}
+.div1 {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3px 50px;
+  background-image: url(page.png);
+  background-position: center;
+  background-repeat: repeat-y;
+}
+.div2 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.div2 a {
+  width: 300px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.div2 a:link {
+  color: black;
+}
+.div2 a:visited {
+  color: rgb(137, 126, 128);
+}
+.div2 a:hover {
+  color: red;
+}
+.div2 a:active {
+  color: rgb(236, 181, 190);
+}
+.div2 p {
+  margin-bottom: 0;
+  color: red;
+}
+.div3 {
+  border: 4px solid pink;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 250px;
+  box-sizing: border-box;
+}
+.div3 p {
+  line-height: 40px;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+.div3 h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.div3 h2:target {
+  color: red;
+}
+.div4{
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  margin-left:200px ;
+  margin-top: 30px;
+}
+.div4 a{
+  font-size: 20px;
+  color: red;
+}
+.div4 a:hover{
+  color: rgb(152, 118, 123);
+}
+.div4 a:active{
+  color:pink;
 }
