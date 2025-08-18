@@ -20,10 +20,7 @@ body {
 .one a {
   color: red;
   font-size: 20px;
-  margin-left: 100px;
   text-decoration: none;
-  position: absolute;
-  top: 630px;
 }
 .one a:hover {
   color: rgb(152, 118, 123);

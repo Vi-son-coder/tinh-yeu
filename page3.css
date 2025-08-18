@@ -53,10 +53,7 @@
 .div3 a{
     color: red;
     font-size: 20px;
-    margin-left: 100px; 
     text-decoration: none;
-    position: absolute;
-    top: 2070px;
 }
 .div3 a:hover{
     color: rgb(152, 118, 123);
