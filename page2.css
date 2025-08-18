@@ -24,18 +24,20 @@ p {
 .p1 {
   margin-top: 85px;
 }
-.two a {
+.p2 a {
   color: red;
   font-size: 20px;
   text-decoration: none;
 }
-pre{
-  margin-top: 90px;
+.p2{
+  text-align: center;
+  white-space:pre-wrap;
+  margin-bottom: 20px;
 }
-.two a:hover {
+.p2 a:hover {
   color: rgb(152, 118, 123);
 }
-.two a:active {
+.p2 a:active {
   color: pink;
 }
 body{

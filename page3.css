@@ -47,20 +47,25 @@
   margin-bottom: 50px;
   line-height: 2.3;
 }
-.div2 h2:target{
-  color:red;
+.div2 h2:target {
+  color: red;
 }
-.div3 a{
-    color: red;
-    font-size: 20px;
-    text-decoration: none;
+.div3{
+    text-align: center;
+  white-space:pre-wrap;
+  margin-bottom: 20px;
 }
-.div3 a:hover{
-    color: rgb(152, 118, 123);
+.div3 a {
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
 }
-.div3 a:active{
-    color: pink;
+.div3 a:hover {
+  color: rgb(152, 118, 123);
 }
-body{
+.div3 a:active {
+  color: pink;
+}
+body {
   width: 900px;
 }

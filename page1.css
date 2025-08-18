@@ -31,3 +31,8 @@ overflow-wrap: break-word;
 .one a:active {
   color: pink;
 }
+.two{
+  text-align: center;
+  white-space:pre-wrap;
+  margin-bottom: 20px;
+}
