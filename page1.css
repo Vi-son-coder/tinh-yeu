@@ -17,6 +17,9 @@ body {
   line-height: 2.1;
   text-align: left;
 }
+pre{
+overflow-wrap: break-word;
+}
 .one a {
   color: red;
   font-size: 20px;
