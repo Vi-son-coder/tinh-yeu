@@ -3,10 +3,10 @@ body {
   margin: 0;
 }
 .one {
-  width: 100%;
-  max-width: 800px;
+  width: 100%; /* tự điều chỉnh độ rộng bằng 100% thiết bị*/
+  max-width: 800px; /* nếu màn hình nào to hơn 800px thì tự động thu nhỏ và giữ cố định 800px*/
   padding: 3px 50px;
-  margin: 0 auto;
+  margin: 0 auto; /* Tự động căn giữa trang,  auto: là máy sẽ tự cẳn chỉnh 2 bên trái phải*/
   background-position: center;
   background-image: url(page.png);
   background-repeat: repeat-y;
@@ -19,9 +19,8 @@ body {
   font-size: 30px;
   line-height: 2.1;
   text-align: left;
-}
-pre{
-overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 .one a {
   color: red;
@@ -34,8 +33,8 @@ overflow-wrap: break-word;
 .one a:active {
   color: pink;
 }
-.two{
+.two {
   text-align: center;
-  white-space:pre-wrap;
+  white-space: pre-wrap;
   margin-bottom: 20px;
 }
