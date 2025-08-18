@@ -1,5 +1,7 @@
 .three {
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
   padding: 3px 50px;
   background-position: center;
   background-image: url(page.png);
@@ -67,5 +69,6 @@
   color: pink;
 }
 body {
-  width: 900px;
+  padding: 0;
+  margin: 0;
 }
