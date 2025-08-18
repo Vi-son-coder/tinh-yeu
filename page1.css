@@ -1,28 +1,33 @@
-.one{
-    width: 600px;
-    padding: 3px 50px;
-    background-image: url(page.png);
-    background-repeat: repeat-y
+body{
+  width: 900px;
 }
-.one h1{
-    font-size: 40px;
-    text-align: center;
+.one {
+  width: 800px;
+  padding: 3px 50px;
+  background-position: center;
+  background-image: url(page.png);
+  background-repeat: repeat-y;
 }
-.one p{
-    font-size: 30px;
-    line-height: 2.1;
-    text-align: left;
+.one h1 {
+  font-size: 40px;
+  text-align: center;
 }
-.one a{
-    color: red;
-    font-size: 20px;
-    text-decoration: none;
-    position: absolute;
-    top: 770px;
+.one p {
+  font-size: 30px;
+  line-height: 2.1;
+  text-align: left;
 }
-.one a:hover{
-    color: rgb(152, 118, 123);
+.one a {
+  color: red;
+  font-size: 20px;
+  margin-left: 100px; 
+  text-decoration: none;
+  position: absolute;
+  top: 630px;
 }
-.one a:active{
-    color: pink;
+.one a:hover {
+  color: rgb(152, 118, 123);
+}
+.one a:active {
+  color: pink;
 }

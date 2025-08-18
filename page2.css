@@ -1,37 +1,43 @@
-.two{
-     width: 600px;
-    padding: 3px 50px;
-    background-image: url(page.png);
-    background-repeat: repeat-y
+.two {
+  width: 800px;
+  padding: 3px 50px;
+  background-position: center;
+  background-image: url(page.png);
+  background-repeat: repeat-y;
 }
-.two h1{
-    font-size: 40px;
+.two h1 {
+  font-size: 40px;
 }
-.two h2{
-    font-size: 30px;
+.two h2 {
+  font-size: 30px;
 }
-.two p{
-    font-size: 30px;
-    text-align: right;
-    position: relative;
-    top: -30px;
+.two p {
+  font-size: 30px;
+  text-align: right;
+  position: relative;
+  top: -30px;
 }
-.two h2,p{
-    line-height: 0%;
+.two h2,
+p {
+  line-height: 0%;
 }
-.p1{
-    margin-top: 85px;
+.p1 {
+  margin-top: 85px;
 }
-.two a{
-    color: red;
-    font-size: 20px;
-    text-decoration: none;
-    position: absolute;
-    top: 570px;
+.two a {
+  color: red;
+  font-size: 20px;
+  margin-left: 100px; 
+  text-decoration: none;
+  position: absolute;
+  top: 570px;
 }
-.two a:hover{
-    color: rgb(152, 118, 123);
+.two a:hover {
+  color: rgb(152, 118, 123);
 }
-.two a:active{
-    color: pink;
+.two a:active {
+  color: pink;
+}
+body{
+  width: 900px;
 }

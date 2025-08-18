@@ -64,3 +64,6 @@
 .div3 a:active{
     color: pink;
 }
+body{
+  width: 900px;
+}
