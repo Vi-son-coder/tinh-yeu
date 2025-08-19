@@ -14,12 +14,14 @@ body {
 .div2 {
   width: 400px;
   display: flex;
+  /* khi sử dụng display:flex thì các block con sẽ trở thành flex-items  */
   flex-direction: column;
+  /* flex-direction: column; là 1 attribute để điều khiển các items ở trong 1 block flex column là cột*/
   box-sizing: border-box;
 }
 .div2 a {
   width: 300px;
-  text-decoration: none;
+  text-decoration:none;
   font-size: 30px;
   margin-top: 10px;
 }
