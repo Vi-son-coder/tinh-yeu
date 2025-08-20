@@ -6,7 +6,6 @@ body {
 .one {
   width: 100%; 
   /* tự điều chỉnh độ rộng bằng 100% thiết bị */
-  height: 100vh;
   max-width: 800px;
   /* nếu màn hình nào to hơn 800px thì tự động thu nhỏ và giữ cố định 800px */
   padding: 3px 50px;
