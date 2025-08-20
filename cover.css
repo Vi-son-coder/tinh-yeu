@@ -1,29 +1,34 @@
 body{
+    height: 100vh;
+    display: flex;
     background-image: url(pngtree-love-background-red-and-light-pink-image_327227.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 .border{
-    border:3px solid black ;
-    border-radius: 20px;
+    border: 1px solid black;
     background-image: url(thu.jpg);
-    background-size: 400px 250px;
-    position: relative;
-    left: 590px;
-    top: 200px;
     width: 400px;
     height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-size: 400px 250px;
+   border-radius: 20px;
+   box-sizing: border-box;
 }
 a{
-    text-decoration:none;
-    font-size: 35px;
-    color:red;
-    font-family: 'Times New Roman', Times, serif;
-    position:relative;
-    left: 95px;
-    top: 180px;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
 }
 a:hover{
-    color:rgb(184, 102, 115);
+    color: red;
 }
 a:active{
-    color:pink;
+    color: pink;
 }
