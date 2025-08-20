@@ -36,7 +36,7 @@ p {
   text-align: center;
   white-space:pre-wrap;
   position: relative;
-  top: 40vh;
+  top: 15%;
 }
 .p2 a:hover {
   color: rgb(152, 118, 123);
