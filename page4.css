@@ -66,7 +66,6 @@ body {
   color: red;
 }
 .div4{
-  box-sizing: border-box;
   white-space: pre-wrap;
   margin-left:200px ;
   margin-top: 30px;
@@ -74,6 +73,7 @@ body {
 .div4 a{
   font-size: 20px;
   color: red;
+  text-decoration: none;
 }
 .div4 a:hover{
   color: rgb(152, 118, 123);
