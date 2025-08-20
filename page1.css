@@ -7,6 +7,7 @@ body {
   width: 100%; 
   /* tự điều chỉnh độ rộng bằng 100% thiết bị */
   max-width: 800px;
+  height: 100vh;
   /* nếu màn hình nào to hơn 800px thì tự động thu nhỏ và giữ cố định 800px */
   padding: 3px 50px;
   margin: 0 auto; /* Tự động căn giữa trang,  auto: là máy sẽ tự cẳn chỉnh 2 bên trái phải*/

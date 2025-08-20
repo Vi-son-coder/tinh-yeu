@@ -1,6 +1,7 @@
 .two {
   width: 100%;
   max-width: 800px;
+  height: 100vh;
   margin: 0 auto;
   padding: 3px 50px;
   background-position: center;
