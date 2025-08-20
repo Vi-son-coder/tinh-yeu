@@ -1,6 +1,12 @@
+body {
+  background-color: pink;
+  padding: 0;
+  margin: 0;
+}
 .three {
   width: 100%;
   max-width: 800px;
+  height: 100%;
   margin: 0 auto;
   padding: 3px 50px;
   background-position: center;
@@ -11,19 +17,25 @@
   font-size: 40px;
   text-align: left;
 }
+.div1{
+  margin: 0;
+  box-sizing: border-box;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
 .div1 p {
+  margin-bottom:0 ;
   color: red;
   font-size: 20px;
-  position: relative;
-  top: 20px;
 }
 .div1 a {
+  display: inline;
   font-size: 25px;
   text-align: left;
   text-decoration: none;
-  line-height: 1.6;
-  position: relative;
-  top: 15px;
+  margin-top: 10px;
+
 }
 .div1 a:link {
   color: black;
@@ -38,8 +50,14 @@
   color: rgb(239, 186, 195);
 }
 .div2 {
-  margin-left: 300px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-top: 50px;
   text-align: left;
+  box-sizing: border-box;
+  border: 2px solid pink;
 }
 .div2 h2 {
   font-size: 30px;
@@ -69,8 +87,4 @@
 }
 .div3 a:active {
   color: pink;
-}
-body {
-  padding: 0;
-  margin: 0;
 }
