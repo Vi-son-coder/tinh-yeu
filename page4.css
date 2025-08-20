@@ -48,7 +48,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-  margin-left: 250px;
+  margin-left: 25%;
   box-sizing: border-box;
 }
 .div3 p {
@@ -67,8 +67,8 @@ body {
 }
 .div4{
   white-space: pre-wrap;
-  margin-left:200px ;
-  margin-top: 30px;
+  text-align: center;
+
 }
 .div4 a{
   font-size: 20px;
