@@ -1,10 +1,13 @@
 body{
+    margin: 0;
+    padding: 0;
     height: 100vh;
     display: flex;
     background-image: url(pngtree-love-background-red-and-light-pink-image_327227.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:  center;
+    /* justify trong lập trình là căn chỉnh, trong hội thoại là biện minh */
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -17,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-   background-size: 400px 250px;
+   background-size: cover;
    border-radius: 20px;
    box-sizing: border-box;
 }
